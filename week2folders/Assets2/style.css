@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+
+a:link {
+    color: rgb(24, 181, 192);
+    font-size: 130%;
+    margin-left: 20px;
+}
+
+a:visited {
+    color: rgb(24, 181, 192);
+}
+
+#backgroundColor {
+    color: #546370;
+    background-color: rgb(24, 181, 192);
+    
+}
+
+.header {
+    padding: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #546370;
+    color: #ffffff;
+    
+    
+}
+
+header img {
+    display: inline-block;
+    margin: 10px;
+    max-width: 150px;
+    margin-bottom: -50px;
+    margin-top: -10px
+}
+
+.header h1{
+    display: inline-block;
+    font-size: 40px;
+}
+
+.header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+    color: rgb(24, 181, 192);
+}
+
+.borderimage {
+    height: 200px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-image: url(/week2folders/Assets2/san-antonio-skyline.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+div {
+    flex: wrap;
+}
+section div{
+    display: flex;
+}
+
+section div h2{
+   max-width: 30%;
+   border-right: 2px solid black;
+   text-align: center;
+   color: #546370;
+   margin-right: 20px;
+   margin-left: 20px;
+   margin-bottom: 20px;
+   padding: 20px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+}
+
+section div p{
+    margin-left: 20px;
+    color: #546370;
+    font-size: 110%;
+    
+}
+
+section div img{
+    margin-left: 25px;
+    width: 35%;
+    flex-wrap: wrap;
+    border: 5px solid rgb(24, 181, 192);
+}
+
+section article img{
+    margin-left: 25px;
+    width: 35%;
+    flex-wrap: wrap;
+    border: 5px solid rgb(24, 181, 192);
+}
+
+
+#pictureone {
+    width: 75%;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 1s ease;
+    background-color: rgb(24, 181, 192);
+}
+.container:hover .overlay {
+    opacity: 0.7;
+}
+
+.container {
+    position: relative;
+}
+
+.text {
+    color: black;
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.text-block {
+    position: absolute;
+    bottom: 50px;
+    right: 100px;
+    background-color: aqua;
+    color: black;
+    font-size: 200%;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
